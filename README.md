@@ -75,20 +75,21 @@ Write Code -----> Commit Changes -----> Make a pull request
 
 ----------------------------------------------------------------------
 ### Local Git Workflow:
-Write Code ----> Stage Changes (git add) -----> Commit Changes (git commit) ----> Push Changes (git push) ----> Make  a pull request 
+Write Code ----> Stage Changes (git add) -----> Commit Changes (git commit) ----> Push Changes to git repo (git push) ----> Make  a pull request 
 
 ----------------------------------------------------------------------
 ### Making a pull request 
 #### Meaning we want others to review our code first then make changes then we need to make a pull request.
 
-Git Branching:
-git branch : q to get out of it and star sign shows the current brnach
-git checkout -b feature-11-develop : switch between branches and if used -b means to create new branch and switch to new one.
-git branch
-git checkout master : switch to master branch
-git branch
-git checkout feature-11-develop
-#Add changes to readme.md file.
+#### Git Branching:
+1. git branch : q to get out of it and star sign shows the current brnach
+2. git checkout -b feature-11-develop : switch between branches and if used -b means to create new branch and switch to new one.
+3. git branch
+4. git checkout main : switch to main branch
+5. git branchg
+6. git checkout feature-11-develop
+
+#### Add changes to readme.md file.
 git status
 git add Readme.md
 git commit -m "updated readme"
