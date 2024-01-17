@@ -32,7 +32,7 @@ git clone -b main https://github.com/Manjinder-Singh/git-commands.git
 
 ctrl + terminal shortcut for VS Code to open Terminal.
 
-### Practice Basic Git commands to push chnages done on git directly if you have authorization.
+### Practice Basic Git commands to push changes done on git directly if you have authorization.
 0. git --version
 1. git clone -b branch-name "URL"
 git clone -b main https://github.com/Manjinder-Singh/git-commands.git
@@ -50,30 +50,36 @@ git commit -m "first commit" -m "updating changes to READEME.md and adding new f
 5. git push : pushed code to online repo
 or git push origin main
 
-GIT PUSH
+----------------------------------------------------------------------
+### GIT PUSH AFTER CREATING A NEW FILE and FOLDER LOCALLY:
 
-Now pushing a folder with file which is newly created locally to git hub after *
+#### Now pushing a folder with file which is newly created locally to git hub after *
 
 Inside the folder execute the commands that you are gonna push:
-git init
-git status
-git add README.md (README.md - file added under new folder
-git status
-git commit -m "Created readme" -m "description"
-git push origin master // gives error as repo is created locally not on git*
+1. git init
+2. git status
+3. git add README.md (README.md - file added under new folder
+4. git status
+5. git commit -m "Created readme" -m "description"
+6. git push origin main // gives error as repo is created locally not on github*
 
-now create empty git repo on github
-git remote add origin "ssh url which just above created"
-git remote -v
-git push -u origin master : here -u refers to that next time when we use only "git push" then it will automtically push  to master.
+7. Now create empty git repo on github
+8. git remote add origin "ssh url which just above created"
+git remote add origin git@github.com:Manjinder-Singh/git-commands.git
+9. git remote -v
+10. git push -u origin main : here -u (means upstream) refers to that next time when we use only "git push" then it will automtically push to main.
 
-GIT WORKFLOW:
+----------------------------------------------------------------------
+### GIT WORKFLOW:
 Write Code -----> Commit Changes -----> Make a pull request
 
-Local Git Workflow:
+----------------------------------------------------------------------
+### Local Git Workflow:
 Write Code ----> Stage Changes (git add) -----> Commit Changes (git commit) ----> Push Changes (git push) ----> Make  a pull request 
 
-Making a pull request : Meaning we want others to review our code first then make changes then we need to make a pull request.
+----------------------------------------------------------------------
+### Making a pull request 
+#### Meaning we want others to review our code first then make changes then we need to make a pull request.
 
 Git Branching:
 git branch : q to get out of it and star sign shows the current brnach
