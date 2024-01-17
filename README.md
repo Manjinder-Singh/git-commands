@@ -86,22 +86,22 @@ Write Code ----> Stage Changes (git add) -----> Commit Changes (git commit) ----
 2. git checkout -b feature-11-develop : switch between branches and if used -b means to create new branch and switch to new one.
 3. git branch
 4. git checkout main : switch to main branch
-5. git branchg
+5. git branch
 6. git checkout feature-11-develop
 
-#### Add changes to readme.md file.
-git status
-git add Readme.md
-git commit -m "updated readme"
-git checkout master
-git diff feature-11-develop : use to compare the differeneces that is merging in from branch feature-11-develop to master branch.
+#### Add new changes to readme.md file.
+1. git status
+2. git add Readme.md
+3. git commit -m "updated readme"
+4. git checkout main
+5. git diff feature-11-develop : use to compare the differeneces that is merging in from branch feature-11-develop to master branch.
 **git merge feature-11-develop : Merge the changes but We dont do this instead create a PR.
-git checkout feature-11-develop  : Push chnages to that branch on github and making a PR.
-git status
-git push : push upto github.  As you are on new branch " feature-11-develop " currently, you need to tell on which branch you are going to push 
+6. git checkout feature-11-develop  : Push chnages to that branch on github and making a PR.
+7. git status
+8. git push : push upto github.  As you are on new branch " feature-11-develop " currently, you need to tell on which branch you are going to push 
 answer is branch on github and the branch on local - which will be same for sure.
 
-git push --set-upstream origin feature-readme-instructions
+9. git push --set-upstream origin feature-readme-instructions
 or
 git push -u origin feature-readme-instructions : here -u means  --set-upstream origin
 
