@@ -1,43 +1,54 @@
 # git-commands
 Git Commands for Beginners
 
+### YouTube Video Document referred for learning
+https://gist.github.com/gwenf/19e5748a5391929e8e938a22c8a4b3f2
+
+### You Tube Video for learning / Reference
+https://www.youtube.com/watch?v=RGOj5yH7evk&t=905s
+
+
 # Demo
 ## Basic Git Commands
 
 ### Check version
 git --version
 
-git clone -b https://github.com/Manjinder-Singh/git-commands.git
-Git and GitHub
+### Cloning git Repo
+git clone -b main https://github.com/Manjinder-Singh/git-commands.git
 
-Team's GitHub Repo
-https://gitlabe2.ext.net.nokia.com/csf/co-op-student-projects.git
 
-YouTube Video Doc https://gist.github.com/gwenf/19e5748a5391929e8e938a22c8a4b3f2
-
-You Tube Video
-https://www.youtube.com/watch?v=RGOj5yH7evk&t=905s
 ----------------------------------------------------------------------
-YouTube Video Doc Commands
-repo -> repository
-clone -> bring a repo down from the internet (remote repository like Github) to your local machine
-add -> track your files and changes with Git
-commit -> save your changes into Git
-push -> push your changes to your remote repo on Github (or another website)
-pull -> pull changes down from the remote repo to your local machine
-status -> check to see which files are being tracked or need to be commited
-init -> use this command inside of your project to turn it into a Git repository and start using Git with that codebase
+### YouTube Video Doc Commands
+1. repo -> repository
+2. clone -> bring a repo down from the internet (remote repository like Github) to your local machine
+3. add -> track your files and changes with Git
+4. commit -> save your changes into Git
+5. push -> push your changes to your remote repo on Github (or another website)
+6. pull -> pull changes down from the remote repo to your local machine
+7. status -> check to see which files are being tracked or need to be commited
+8. init -> use this command inside of your project to turn it into a Git repository and start using Git with that codebase
 ----------------------------------------------------------------------
 
-ctrl + terminal shortcut for VS Code
+ctrl + terminal shortcut for VS Code to open Terminal.
 
+### Practice Basic Git commands to push chnages done on git directly if you have authorization.
 0. git --version
-1. git clone -b master "URL"
-2. git status : Shows all of the files that were updated/deleted/created but haven't been saved to commit yet.
+1. git clone -b branch-name "URL"
+git clone -b main https://github.com/Manjinder-Singh/git-commands.git
+
+2. git status : Shows all of the files that were updated/deleted/ newly created but haven't been saved to commit yet.
+
 3. git add . : Tells git to track all of the files under untracked(new files) and modified(previous file updated) section displayed by git status command.
+or git add filename
+git add . OR
+git add index.html, README.md
+
 4. git commit -m "Message" -m "Some description"
+git commit -m "first commit" -m "updating changes to READEME.md and adding new file index.html"
+
 5. git push : pushed code to online repo
-or git push origin master
+or git push origin main
 
 GIT PUSH
 
